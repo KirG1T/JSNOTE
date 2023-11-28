@@ -1,0 +1,30 @@
+{
+  "name": "jsnoteweb",
+  "version": "5.0.0",
+  "description": "",
+  "bin": "dist/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsc --watch --preserveWatchOutput",
+    "prepublishOnly": "esbuild src/index.ts --platform=node --outfile=dist/index.js --bundle --minify --define:process.env.NODE_ENV=\\\"production\\\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@jsnoteweb/local-client": "^5.0.0"
+  },
+  "devDependencies": {
+    "@jsnoteweb/local-api": "^5.0.0",
+    "@types/node": "^20.9.4",
+    "commander": "^11.1.0",
+    "esbuild": "0.8.26",
+    "typescript": "^5.3.2"
+  },
+  "gitHead": "68affcd565a9f84e798734352ecfc5309ac24028"
+}
