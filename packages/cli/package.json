@@ -1,6 +1,6 @@
 {
   "name": "jsnoteweb",
-  "version": "5.2.0",
+  "version": "5.2.1",
   "description": "",
   "bin": "dist/index.js",
   "publishConfig": {
@@ -17,10 +17,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@jsnoteweb/local-client": "^5.2.0"
+    "@jsnoteweb/local-client": "^5.2.1"
   },
   "devDependencies": {
-    "@jsnoteweb/local-api": "^5.2.0",
+    "@jsnoteweb/local-api": "^5.2.1",
     "@types/node": "^20.9.4",
     "commander": "^11.1.0",
     "esbuild": "0.8.26",
