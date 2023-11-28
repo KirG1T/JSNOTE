@@ -8,5 +8,18 @@ This is an interactive coding environment. You can write Javascript, see it exec
 - Add new cells by hovering on the divider between each cell
 - All of your changes get saved to the file you opened JSNOTE with. Default file is `notebook.js`. But you can change name of this file and if you ran `npx jsnoteweb serve test.js`, all of the text and code you write will be saved to the `test.js` file
 
-Install: `npm i jsnoteweb`
-Launch: `npx jsnoteweb serve [optional file name] [optional port number(default 4005): -p <number> or --port <number>]`
+## Install
+
+    npm i jsnoteweb
+
+## Launch
+
+    npx jsnoteweb serve [optional file name] [optional port number]
+
+Optional port number format - `-p <number> `or` --port <number>`
+Default port - `4005`
+Default URL - `http://localhost:4005/`
+
+## Examples
+
+![](https://i.ibb.co/svwnGrn/Screenshot-1.jpg)
