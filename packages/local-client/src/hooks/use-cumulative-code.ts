@@ -9,6 +9,10 @@ export const useCumulativeCode = (cellId: string) => {
 
     var show = (value) => {
       const root = document.querySelector('#root');
+      
+      if (typeof value === 'function') {
+        value = value();
+      }
 
       if(typeof value === 'object') {
         if(value.$$typeof && value.props){
