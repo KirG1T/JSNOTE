@@ -1,6 +1,6 @@
 {
   "name": "@jsnoteweb/local-client",
-  "version": "5.2.1",
+  "version": "5.4.0",
   "publishConfig": {
     "access": "public"
   },
